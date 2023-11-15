@@ -37958,11 +37958,37 @@ a.u-link.u-text-hover-grey-90:hover {
     transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   }
 }
-
+@media (max-width: 991px) {
+  .u-header .u-icon-1 {
+    margin-top: 20px;
+  }
+}
 
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 195px;
+  }
+
+  .u-header .u-image-1 {
+    width: 334px;
+    height: 54px;
+    margin-top: 32px;
+    margin-left: 0;
+  }
+
   .u-header .u-icon-1 {
-    margin-right: 78px;
+    margin-top: 32px;
+    margin-right: auto;
+    margin-left: 89px;
+  }
+
+  .u-header .u-icon-2 {
+    margin-right: auto;
+  }
+
+  .u-header .u-icon-3 {
+    margin-right: 89px;
+    margin-bottom: 38px;
   }
 }
 .u-header .u-icon-1, .u-header .u-icon-1:before, .u-header .u-icon-1 > .u-container-layout:before {
